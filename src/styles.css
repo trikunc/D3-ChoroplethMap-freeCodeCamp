@@ -1,8 +1,3 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -14,4 +9,28 @@ body {
     rgb(182, 243, 245) 0%,
     rgb(84, 39, 249) 93.6%
   );
+}
+
+svg {
+  /* overflow: visible; */
+  border: 2px solid black;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background: gray;
+  color: whitesmoke;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+  border-radius: 3px;
+}
+
+.active {
+  fill: gray;
 }
